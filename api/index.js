@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.json());
 
 // Define the API endpoint
-app.post("/get-rc-data", async (req, res) => {
+app.post("/", async (req, res) => {
   // Extract data from the request (if needed)
 
   const { reg } = req.body;
