@@ -25,7 +25,7 @@ app.post("/", async (req, res) => {
       {
         headers: {
           "Content-Type": "application/json", // Match the external API's requirements
-          Authorization: "Basic T1gwZ2dna2RFNFJwakFiMmpoLjg3ZTAxNzk0NTFhNjRkOWMzZjM0OTliZTdkNjc0MTk4OjBiMDY5YTU2ZDI2NjRiY2M3ZmJiYTVhYzRkYzg4MTNmODFmMTYzMjI0ZGEwMGU5Yg==", // Add headers if required
+          Authorization: "Basic T1gwZ2dna2RFNFJwakFiMmpoLjIzNjE0ODZkMzg0MTQ0NDI5ZTZhNDc0YTdlM2NiMmZlOmIxNTk2OTc4OTQ0ZDIyNzQxMWJhYWQ1ODM1OGYyOTExMjA4NDExMjhkZmE5ODU3NA==", // Add headers if required
         },
       }
     );
